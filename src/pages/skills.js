@@ -1,9 +1,10 @@
-import * as React from "react"
+import React from "react"
+import BasicLayout from "../layouts/BasicLayout"
 
 const SkillsPage = () => (
-  <>
-    <h1>SkillsPage</h1>
-  </>
+  <BasicLayout>
+    <h1>Skills Page</h1>
+  </BasicLayout>
 )
 
 export default SkillsPage

@@ -1,9 +1,11 @@
 import * as React from "react"
+import Profile from "../components/Profile/Profile"
+import BasicLayout from "../layouts/BasicLayout"
 
 const IndexPage = () => (
-  <>
-    <h1>Home</h1>
-  </>
+  <BasicLayout>
+    <Profile />
+  </BasicLayout>
 )
 
 export default IndexPage

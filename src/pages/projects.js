@@ -1,9 +1,10 @@
-import * as React from "react"
+import React from "react"
+import BasicLayout from "../layouts/BasicLayout"
 
 const ProjectsPage = () => (
-  <>
-    <h1>ProjectsPage</h1>
-  </>
+  <BasicLayout>
+    <h1>Projects Page</h1>
+  </BasicLayout>
 )
 
 export default ProjectsPage
