@@ -1,20 +1,20 @@
 import styled from "styled-components"
-
-const Container = styled.div``
+import { ReactComponent as SvgInstagram } from "../../images/icons/instagram.svg"
+import { ReactComponent as SvgGitHub } from "../../images/icons/github.svg"
+import { ReactComponent as SvgLinkedin } from "../../images/icons/linkedin.svg"
+import { ReactComponent as SvgWeb } from "../../images/icons/web.svg"
 
 const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 60px auto;
-  border: 1px solid red;
 `
 const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  border: 1px solid red;
 `
 
 const InfoContainer = styled.div`
@@ -23,7 +23,6 @@ const InfoContainer = styled.div`
   margin: 0 auto;
   width: 100%;
   padding: 20px;
-  border: 1px solid red;
 `
 
 const Title = styled.h2`
@@ -50,19 +49,92 @@ const Image = styled.img`
 `
 
 const SocialMediaContainer = styled.div`
-  background-color: #0098d3;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 25px 0;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 10px auto;
 `
 
-const Hola = styled.a`
-  background-color: red;
+const IcInstagram = styled(SvgInstagram)`
+  width: 24px;
+  height: 24px;
+  color: #fff;
+`
+
+const IcGitHub = styled(SvgGitHub)`
+  width: 24px;
+  height: 24px;
+  color: #fff;
+`
+
+const IcLinkedin = styled(SvgLinkedin)`
+  width: 24px;
+  height: 24px;
+  color: #fff;
+`
+
+const IcWeb = styled(SvgWeb)`
+  width: 24px;
+  height: 24px;
+  color: #fff;
+`
+
+const Link = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #49c7d8;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #49c7d890;
+  }
+`
+
+const TextContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 40px auto;
+  /* border: 1px solid red; */
+`
+
+const Parrafo = styled.p`
+  text-align: center;
+  font-size: 18px;
+`
+
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+`
+
+const Button = styled.button`
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #49c7d8;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    text-decoration: underline;
+    background-color: #49c7d890;
+  }
 `
 
 export {
-  Container,
   ProfileContainer,
   ImageContainer,
   Image,
@@ -70,4 +142,13 @@ export {
   Title,
   SubTitle,
   SocialMediaContainer,
+  IcInstagram,
+  IcGitHub,
+  IcLinkedin,
+  IcWeb,
+  Link,
+  TextContainer,
+  Parrafo,
+  ButtonContainer,
+  Button,
 }
