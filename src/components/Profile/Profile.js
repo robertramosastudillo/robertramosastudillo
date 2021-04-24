@@ -15,10 +15,10 @@ import {
   TextContainer,
   Parrafo,
   ButtonContainer,
-  Button,
+  ButtonLink,
 } from "./ProfileStyle"
 import avatar from "../../images/avatar.jpg"
-
+import CV from "../../images/cv.pdf"
 const socialMedia = [
   {
     icon: <IcInstagram />,
@@ -69,7 +69,9 @@ const Profile = () => {
         </Parrafo>
       </TextContainer>
       <ButtonContainer>
-        <Button>Descargar CV</Button>
+        <ButtonLink href={CV} target="_blank" rel="noreferrer noopener">
+          Descargar CV
+        </ButtonLink>
       </ButtonContainer>
     </ProfileContainer>
   )

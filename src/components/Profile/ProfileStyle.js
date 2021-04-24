@@ -115,18 +115,16 @@ const ButtonContainer = styled.div`
   margin: 0 auto;
 `
 
-const Button = styled.button`
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
+const ButtonLink = styled.a`
+  text-decoration: none;
   color: #fff;
-  border: none;
+  font-weight: bold;
+  font-size: 18px;
   background-color: #49c7d8;
   padding: 16px;
   border-radius: 8px;
-  cursor: pointer;
-  outline: none;
+  text-align: center;
+  width: 100%;
 
   &:hover {
     text-decoration: underline;
@@ -150,5 +148,5 @@ export {
   TextContainer,
   Parrafo,
   ButtonContainer,
-  Button,
+  ButtonLink,
 }
