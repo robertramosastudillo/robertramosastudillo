@@ -1,9 +1,12 @@
 import React from "react"
 import BasicLayout from "../layouts/BasicLayout"
+import TechnicalSkills from "../components/TechnicalSkills"
+import ProfessionalSkills from "../components/ProfessionalSkills/ProfessionalSkills"
 
 const SkillsPage = () => (
   <BasicLayout>
-    <h1>Skills Page</h1>
+    <TechnicalSkills />
+    <ProfessionalSkills />
   </BasicLayout>
 )
 

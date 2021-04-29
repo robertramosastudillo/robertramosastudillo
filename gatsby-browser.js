@@ -5,12 +5,3 @@
  */
 
 // You can delete this file if you're not using it
-import React from "react"
-import { GlobalStyle } from "./src/themes/global-style"
-
-export const wrapRootElement = ({ element }) => (
-  <>
-    <GlobalStyle />
-    {element}
-  </>
-)

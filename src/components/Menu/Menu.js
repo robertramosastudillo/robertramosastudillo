@@ -10,7 +10,7 @@ const Menu = () => {
             <RouterLink to="/">Inicio</RouterLink>
           </Li>
           <Li>
-            <RouterLink to="/skills">Skills</RouterLink>
+            <RouterLink to="/skills">Habilidades</RouterLink>
           </Li>
           <Li>
             <RouterLink to="/projects">Proyectos</RouterLink>
