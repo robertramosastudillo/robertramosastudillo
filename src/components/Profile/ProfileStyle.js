@@ -3,12 +3,20 @@ import { ReactComponent as SvgInstagram } from "../../images/icons/instagram.svg
 import { ReactComponent as SvgGitHub } from "../../images/icons/github.svg"
 import { ReactComponent as SvgLinkedin } from "../../images/icons/linkedin.svg"
 import { ReactComponent as SvgWeb } from "../../images/icons/web.svg"
+import { device } from "../../themes/device"
 
 const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin: 60px auto;
+  height: auto;
+  margin: 40px auto;
+  /* border: 1px solid red; */
+
+  @media ${device.laptopL} {
+    height: 100%;
+    justify-content: center;
+  }
 `
 const ImageContainer = styled.div`
   display: flex;
@@ -32,12 +40,22 @@ const Title = styled.h2`
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+
+  @media ${device.laptop} {
+    font-size: 36px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 `
 
 const SubTitle = styled.p`
   text-align: center;
   color: #000;
   font-size: 16px;
+  @media ${device.laptop} {
+    font-size: 24px;
+  }
 `
 
 const Image = styled.img`
@@ -54,30 +72,54 @@ const SocialMediaContainer = styled.div`
   justify-content: space-evenly;
   width: 100%;
   margin: 10px auto;
+
+  @media ${device.laptop} {
+    width: 50%;
+  }
 `
 
 const IcInstagram = styled(SvgInstagram)`
   width: 24px;
   height: 24px;
   color: #fff;
+
+  @media ${device.laptop} {
+    width: 31px;
+    height: 31px;
+  }
 `
 
 const IcGitHub = styled(SvgGitHub)`
   width: 24px;
   height: 24px;
   color: #fff;
+
+  @media ${device.laptop} {
+    width: 31px;
+    height: 31px;
+  }
 `
 
 const IcLinkedin = styled(SvgLinkedin)`
   width: 24px;
   height: 24px;
   color: #fff;
+
+  @media ${device.laptop} {
+    width: 31px;
+    height: 31px;
+  }
 `
 
 const IcWeb = styled(SvgWeb)`
   width: 24px;
   height: 24px;
   color: #fff;
+
+  @media ${device.laptop} {
+    width: 31px;
+    height: 31px;
+  }
 `
 
 const Link = styled.a`
@@ -93,6 +135,11 @@ const Link = styled.a`
   &:hover {
     background-color: #49c7d890;
   }
+
+  @media ${device.laptop} {
+    width: 62px;
+    height: 62px;
+  }
 `
 
 const TextContainer = styled.div`
@@ -100,12 +147,15 @@ const TextContainer = styled.div`
   justify-content: space-evenly;
   width: 100%;
   margin: 40px auto;
-  /* border: 1px solid red; */
 `
 
 const Parrafo = styled.p`
   text-align: center;
   font-size: 18px;
+
+  @media ${device.laptop} {
+    font-size: 24px;
+  }
 `
 
 const ButtonContainer = styled.div`
@@ -113,6 +163,10 @@ const ButtonContainer = styled.div`
   justify-content: space-evenly;
   width: 100%;
   margin: 0 auto;
+
+  @media ${device.laptop} {
+    width: 50%;
+  }
 `
 
 const ButtonLink = styled.a`

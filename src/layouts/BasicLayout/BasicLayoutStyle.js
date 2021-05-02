@@ -1,7 +1,16 @@
 import styled from "styled-components"
+import { device } from "../../themes/device"
 
-// const Container = styled.div`
-//   border: 2px solid green;
-// `
+const GlobalContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
-export {}
+  @media ${device.laptop} {
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+  }
+`
+
+export { GlobalContainer }

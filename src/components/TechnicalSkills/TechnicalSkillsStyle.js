@@ -1,11 +1,17 @@
 import styled from "styled-components"
+import { device } from "../../themes/device"
 
 const TechnicalSkillsContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: auto;
   margin: 40px auto;
   /* border: 1px solid red; */
+  @media ${device.laptopL} {
+    height: 100%;
+    justify-content: center;
+  }
 `
 
 const TechnicalSkillsArea = styled.div`

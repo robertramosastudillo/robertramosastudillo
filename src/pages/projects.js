@@ -1,9 +1,13 @@
 import React from "react"
+import Projects from "../components/Projects/Projects"
 import BasicLayout from "../layouts/BasicLayout"
+import { Container } from "../themes/global-style"
 
 const ProjectsPage = () => (
   <BasicLayout>
-    <h1>Projects Page</h1>
+    <Container>
+      <Projects />
+    </Container>
   </BasicLayout>
 )
 

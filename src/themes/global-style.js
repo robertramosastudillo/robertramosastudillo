@@ -1,6 +1,7 @@
-import { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
+import { device } from "./device"
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
@@ -11,3 +12,22 @@ export const GlobalStyle = createGlobalStyle`
             background-color: #f4f4f4;
     }
 `
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  @media ${device.laptop} {
+    overflow-y: scroll;
+  }
+
+  /* @media ${device.desktop} {
+    height: 100%;
+    justify-content: center;
+  } */
+`
+
+export { GlobalStyle, Container }

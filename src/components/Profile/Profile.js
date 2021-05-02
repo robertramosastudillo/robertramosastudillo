@@ -48,6 +48,7 @@ const Profile = () => {
         <Title>Robert Andres Ramos Astudillo</Title>
         <SubTitle>Full Stack Developer</SubTitle>
       </InfoContainer>
+
       <SocialMediaContainer>
         {socialMedia.map((social, index) => (
           <Link
@@ -60,6 +61,7 @@ const Profile = () => {
           </Link>
         ))}
       </SocialMediaContainer>
+
       <TextContainer>
         <Parrafo>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime
@@ -68,6 +70,7 @@ const Profile = () => {
           veritatis harum ducimus!
         </Parrafo>
       </TextContainer>
+
       <ButtonContainer>
         <ButtonLink href={CV} target="_blank" rel="noreferrer noopener">
           Descargar CV

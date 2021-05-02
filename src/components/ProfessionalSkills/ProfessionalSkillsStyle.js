@@ -1,15 +1,23 @@
 import styled from "styled-components"
+import { device } from "../../themes/device"
 
 const ProfessionalSkillsContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: auto;
   margin: 40px auto;
+  /* border: 1px solid red; */
+
+  @media ${device.laptopL} {
+    height: 100%;
+    justify-content: center;
+  }
 `
 
 const ProfessionalSkillsArea = styled.div`
   width: 100%;
-  margin: 40px auto 0 auto;
+  margin: 20px auto;
   display: grid;
   gap: 10px;
   justify-content: space-evenly;
