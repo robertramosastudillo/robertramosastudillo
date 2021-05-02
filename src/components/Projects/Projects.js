@@ -3,7 +3,9 @@ import {
   ProjectsContainer,
   ProjectsArea,
   Project,
+  ImageContainer,
   Image,
+  Details,
   Title,
   Text,
 } from "./ProjectsStyle"
@@ -12,7 +14,7 @@ const Projects = () => {
   const projects = [
     {
       img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https:images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "ChatApp",
       text:
         "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
@@ -274,14 +276,18 @@ const Projects = () => {
       <ProjectsArea>
         {projects.map((project, index) => (
           <Project key={index}>
-            <Image
-              src={project.img}
-              alt={project.title}
-              className="grid-item"
-              height={project.height}
-            />
-            <Title>{project.title}</Title>
-            <Text>{project.text}</Text>
+            <ImageContainer>
+              <Image
+                src={project.img}
+                alt={project.title}
+                className="grid-item"
+                height={project.height}
+              />
+            </ImageContainer>
+            <Details>
+              <Title>{project.title}</Title>
+              <Text>{project.text}</Text>
+            </Details>
           </Project>
         ))}
       </ProjectsArea>

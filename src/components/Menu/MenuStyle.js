@@ -19,7 +19,7 @@ const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #000;
+  background-color: #151515;
 
   @media ${device.laptop} {
     width: 100%;
@@ -50,7 +50,7 @@ const activeClassName = "active"
 const RouterLink = styled(Link).attrs({
   activeClassName: activeClassName,
 })`
-  color: #fff;
+  color: #fffcff;
   text-decoration: none;
   font-size: 16px;
 

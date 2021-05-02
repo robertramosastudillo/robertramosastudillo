@@ -7,12 +7,6 @@ const ProjectsContainer = styled.div`
   width: 80%;
   height: auto;
   margin: 40px auto;
-  /* border: 1px solid red; */
-
-  /* @media ${device.laptopL} {
-    height: 100%;
-    justify-content: center;
-  } */
 `
 
 const ProjectsArea = styled.div`
@@ -21,7 +15,6 @@ const ProjectsArea = styled.div`
   column-count: 2;
   margin-top: 20px;
   column-gap: 20px;
-  /* border: 1px solid red; */
 
   @media ${device.tablet} {
     column-count: 3;
@@ -31,41 +24,78 @@ const ProjectsArea = styled.div`
     column-count: 4;
   }
 `
-const Image = styled.img`
-  width: 100%;
-  border-radius: 16px;
-  object-fit: cover;
-  /* object-position: top; */
-`
 
 const Project = styled.div`
-  position: relative;
   width: 100%;
   height: auto;
-  padding: 15px;
-  margin-bottom: 20px;
   border-radius: 16px;
-  background-color: #fff;
-  /* box-shadow: 0 5px 25px #d4d4d4; */
-  /* border: 1px solid red; */
+  margin-bottom: 20px;
   break-inside: avoid;
 `
-const Title = styled.h4`
+const ImageContainer = styled.div`
+  position: relative;
+
+  &:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px 16px 0 0;
+    background-color: #49c7d8;
+    opacity: 0;
+  }
+
+  /* &:hover {
+    &:after {
+      opacity: 0.7;
+    }
+  } */
+`
+
+const Image = styled.img`
+  width: 100%;
+  display: block;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+  object-position: top;
+`
+
+const Details = styled.div`
   text-align: center;
-  font-size: 24px;
-  line-height: 24px;
-  color: #3a3c46;
-  font-weight: 500;
-  padding: 10px 0;
+  padding: 20px 10px;
+  background-color: #151515;
+  border-radius: 0 0 16px 16px;
+`
+
+const Title = styled.h4`
+  color: #fffcff;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 15px 0;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    color: #49c7d8;
+  }
 `
 
 const Text = styled.p`
-  text-align: center;
+  color: #fffcff;
   font-size: 14px;
   line-height: 24px;
-  color: #3a3c46;
-  font-weight: 500;
-  padding: 10px 0;
+  font-weight: 400;
 `
 
-export { ProjectsContainer, ProjectsArea, Project, Image, Title, Text }
+export {
+  ProjectsContainer,
+  ProjectsArea,
+  Project,
+  ImageContainer,
+  Image,
+  Details,
+  Title,
+  Text,
+}
