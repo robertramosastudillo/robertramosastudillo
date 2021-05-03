@@ -14,14 +14,6 @@ const Projects = () => {
   const projects = [
     {
       img:
-        "https:images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "200",
-    },
-    {
-      img:
         "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       title: "ChatApp",
       text:
