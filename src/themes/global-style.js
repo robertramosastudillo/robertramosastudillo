@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
             background-color: #f4f4f4;
+            font-family: sans-serif;
     }
 `
 
@@ -28,7 +29,7 @@ const Container = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #49c7d8; // #151515;
+      background: transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
       border-radius: 100px;
     }
   }

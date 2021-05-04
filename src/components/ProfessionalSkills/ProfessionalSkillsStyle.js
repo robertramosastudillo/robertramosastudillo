@@ -7,21 +7,18 @@ const ProfessionalSkillsContainer = styled.div`
   width: 80%;
   height: auto;
   margin: 40px auto;
-  /* border: 1px solid red; */
-
-  @media ${device.laptopL} {
-    height: 100%;
-    justify-content: center;
-  }
 `
 
 const ProfessionalSkillsArea = styled.div`
   width: 100%;
-  margin: 20px auto;
+  margin-top: 20px;
   display: grid;
   gap: 10px;
   justify-content: space-evenly;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 140px));
+  grid-template-columns: repeat(auto-fit, minmax(60px, 120px));
+  @media ${device.laptop} {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 160px));
+  }
 `
 const Skill = styled.div`
   text-align: center;

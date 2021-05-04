@@ -126,14 +126,16 @@ const Link = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #49c7d8;
+  background: transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
   width: 48px;
   height: 48px;
   border-radius: 50%;
   cursor: pointer;
 
   &:hover {
-    background-color: #49c7d890;
+    text-decoration: underline;
+    background: #46bac9;
+    box-shadow: 0px 0px 16px #3996a3;
   }
 
   @media ${device.laptop} {
@@ -174,7 +176,7 @@ const ButtonLink = styled.a`
   color: #fff;
   font-weight: bold;
   font-size: 18px;
-  background-color: #49c7d8;
+  background: transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
   padding: 16px;
   border-radius: 8px;
   text-align: center;
@@ -182,7 +184,8 @@ const ButtonLink = styled.a`
 
   &:hover {
     text-decoration: underline;
-    background-color: #49c7d890;
+    background: #46bac9;
+    box-shadow: 0px 0px 16px #3996a3;
   }
 `
 

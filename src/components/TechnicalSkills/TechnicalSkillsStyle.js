@@ -7,10 +7,6 @@ const TechnicalSkillsContainer = styled.div`
   width: 80%;
   height: auto;
   margin: 40px auto;
-  @media ${device.laptopL} {
-    height: 100%;
-    justify-content: center;
-  }
 `
 
 const TechnicalSkillsArea = styled.div`
@@ -18,11 +14,20 @@ const TechnicalSkillsArea = styled.div`
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
+  @media ${device.laptop} {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 `
 
 const Skill = styled.div`
   position: relative;
   margin: 5px;
+
+  @media ${device.laptop} {
+    width: 45%;
+  }
 
   &:last-child {
     display: none;
@@ -44,7 +49,7 @@ const SkillBar = styled.div`
 `
 
 const SkillFill = styled.div`
-  background-color: #49c7d8;
+  background: #49c7d8; //transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
   height: 14px;
   border-radius: 100px;
   display: flex;

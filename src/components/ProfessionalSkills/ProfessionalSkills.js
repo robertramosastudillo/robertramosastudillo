@@ -35,6 +35,14 @@ const professionalSkills = [
     title: "Comunicación eficaz",
     percent: 85,
   },
+  {
+    title: "Iniciativa",
+    percent: 75,
+  },
+  {
+    title: "Creatividad",
+    percent: 80,
+  },
 ]
 
 const ProfessionalSkills = () => {

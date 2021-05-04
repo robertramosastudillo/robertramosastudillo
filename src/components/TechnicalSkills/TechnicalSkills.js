@@ -36,7 +36,7 @@ const TechnicalSkills = () => {
       percent: "70%",
     },
     {
-      title: "MondoDB",
+      title: "MongoDB",
       percent: "60%",
     },
     {
@@ -51,7 +51,7 @@ const TechnicalSkills = () => {
 
   return (
     <TechnicalSkillsContainer>
-      <h2>Habilidades Tecnicas</h2>
+      <h2>Habilidades Técnicas</h2>
       <TechnicalSkillsArea>
         {technicalSkills.map((technicalSkill, index) => (
           <Skill key={index}>
