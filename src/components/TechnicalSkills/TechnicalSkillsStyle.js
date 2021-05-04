@@ -7,7 +7,6 @@ const TechnicalSkillsContainer = styled.div`
   width: 80%;
   height: auto;
   margin: 40px auto;
-  /* border: 1px solid red; */
   @media ${device.laptopL} {
     height: 100%;
     justify-content: center;

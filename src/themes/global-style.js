@@ -22,12 +22,16 @@ const Container = styled.div`
 
   @media ${device.laptop} {
     overflow-y: scroll;
-  }
+    &::-webkit-scrollbar {
+      width: 14px;
+      background-color: #ccc;
+    }
 
-  /* @media ${device.desktop} {
-    height: 100%;
-    justify-content: center;
-  } */
+    &::-webkit-scrollbar-thumb {
+      background: #49c7d8; // #151515;
+      border-radius: 100px;
+    }
+  }
 `
 
 export { GlobalStyle, Container }
