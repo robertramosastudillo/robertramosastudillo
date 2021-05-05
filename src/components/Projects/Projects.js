@@ -9,256 +9,65 @@ import {
   Title,
   Text,
 } from "./ProjectsStyle"
+import mernTask from "../../images/projects/MernTask.png"
+import buscaRecetas from "../../images/projects/BuscaRecetas.png"
+import buscaCanciones from "../../images/projects/BuscaCanciones.png"
+import buscaImagenes from "../../images/projects/BuscaImagenes.png"
+import cotizadorCriptomonedas from "../../images/projects/CotizadorCriptomonedas.png"
+import climaApp from "../../images/projects/ClimaApp.png"
+import frasesBreakingBad from "../../images/projects/FrasesBreakingBad.png"
 
 const Projects = () => {
   const projects = [
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "100",
+      img: mernTask,
+      title: "Administra tareas por proyecto",
+      url: "https://gifted-blackwell-15a5d7.netlify.app/",
+      text: "Aplicación para Crear y asignar tareas a uno o mas proyecto",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "200",
+      img: buscaRecetas,
+      title: "Recetas de Bebidas",
+      url: "https://adoring-engelbart-f0ab8a.netlify.app/",
+      text: "Busca bebidas por Categoria o Ingrediente",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "400",
+      img: buscaCanciones,
+      title: "Busca letras de canciones",
+      url: "https://lucid-villani-fe2c73.netlify.app/",
+      text: "Busca la letra de tus canciones favoritas",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
+      img: buscaImagenes,
+      title: "Buscador de Imagenes",
+      url: "https://vigorous-mccarthy-c5be8d.netlify.app/",
+      text: "Busca cualquier imagen y descargalas gratis",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
+      img: cotizadorCriptomonedas,
+      title: "Cotiza Cripto monedas al instante",
+      url: "https://peaceful-hamilton-837fb5.netlify.app/",
       text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
+        "Cotiza Cripto monedas al instante selecionando tu moneda y tu cripto moneda para relizar la conversión",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "150",
+      img: climaApp,
+      title: "App del Clima",
+      url: "https://laughing-morse-87742b.netlify.app/",
+      text: "Mira el clima de tu ciudad",
+      height: "160",
     },
     {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "200",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "100",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "200",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "400",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "150",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
-    },
-    {
-      img:
-        "https://images.pexels.com/photos/2416478/pexels-photo-2416478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "ChatApp",
-      text:
-        "1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, eos.",
-      height: "320",
+      img: frasesBreakingBad,
+      title: "Frases de Breaking Bad",
+      url: "https://hopeful-lamarr-eba663.netlify.app/",
+      text: "Obtiene una frase aleatoria de cualquier personaje de breking bad",
+      height: "160",
     },
   ]
 
@@ -277,7 +86,13 @@ const Projects = () => {
               />
             </ImageContainer>
             <Details>
-              <Title>{project.title}</Title>
+              <Title
+                href={project.url}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {project.title}
+              </Title>
               <Text>{project.text}</Text>
             </Details>
           </Project>

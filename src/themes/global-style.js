@@ -29,7 +29,7 @@ const Container = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-      background: transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
+      background: #151515; //transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
       border-radius: 100px;
     }
   }

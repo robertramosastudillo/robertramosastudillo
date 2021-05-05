@@ -31,10 +31,14 @@ const Project = styled.div`
   border-radius: 16px;
   margin-bottom: 20px;
   break-inside: avoid;
+
+  /* &:hover { */
+  /* background: #46bac9; */
+  /* box-shadow: 0px 0px 16px #3996a3; */
+  /* } */
 `
 const ImageContainer = styled.div`
   position: relative;
-
   &:after {
     content: "";
     height: 100%;
@@ -44,7 +48,7 @@ const ImageContainer = styled.div`
     left: 0;
     border-radius: 16px 16px 0 0;
     background-color: #49c7d8;
-    opacity: 0;
+    opacity: 0.1;
   }
 
   /* &:hover {
@@ -65,11 +69,13 @@ const Image = styled.img`
 const Details = styled.div`
   text-align: center;
   padding: 20px 10px;
-  background-color: #151515;
+  background: #151515;
+  box-shadow: 0px 0px 16px #151515;
   border-radius: 0 0 16px 16px;
 `
 
-const Title = styled.h4`
+const Title = styled.a`
+  text-decoration: none;
   color: #fffcff;
   font-weight: 600;
   font-size: 18px;

@@ -33,11 +33,19 @@ const TechnicalSkills = () => {
     },
     {
       title: "Gatsby JS",
+      percent: "75%",
+    },
+    {
+      title: "Express JS",
+      percent: "75%",
+    },
+    {
+      title: "Next JS",
       percent: "70%",
     },
     {
       title: "MongoDB",
-      percent: "60%",
+      percent: "65%",
     },
     {
       title: "PostgreSQL",

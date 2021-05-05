@@ -23,8 +23,8 @@ module.exports = {
         name: `Robert Ramos`,
         short_name: `Portafolio de Robert`,
         start_url: `/`,
-        background_color: `#000`,
-        theme_color: `#000`,
+        background_color: `#151515`,
+        theme_color: `#151515`,
         display: `minimal-ui`,
         icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },

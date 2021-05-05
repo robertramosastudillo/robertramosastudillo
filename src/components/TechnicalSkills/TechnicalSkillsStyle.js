@@ -49,7 +49,7 @@ const SkillBar = styled.div`
 `
 
 const SkillFill = styled.div`
-  background: #49c7d8; //transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%);
+  background: transparent linear-gradient(180deg, #49c7d8 0%, #3996a3 100%); // #49c7d8;
   height: 14px;
   border-radius: 100px;
   display: flex;

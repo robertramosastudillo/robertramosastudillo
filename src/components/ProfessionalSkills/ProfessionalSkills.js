@@ -14,34 +14,42 @@ const professionalSkills = [
   {
     title: "Autodidacta",
     percent: 85,
+    color: "#49c7d8",
   },
   {
     title: "Trabajo en Equipo",
     percent: 90,
+    color: "#3FB4C3",
   },
   {
     title: "Proactivo",
     percent: 75,
+    color: "#5ACFDF",
   },
   {
     title: "Pensamiento Critico",
     percent: 85,
+    color: "#47B6C4",
   },
   {
     title: "Organización",
     percent: 85,
+    color: "#59D3E2",
   },
   {
     title: "Comunicación eficaz",
     percent: 85,
+    color: "#7DC2CB",
   },
   {
     title: "Iniciativa",
     percent: 75,
+    color: "#77D0DC",
   },
   {
     title: "Creatividad",
     percent: 80,
+    color: "#59ACB8",
   },
 ]
 
@@ -57,6 +65,7 @@ const ProfessionalSkills = () => {
                 <CircularProgressbar
                   value={percentage}
                   text={`${percentage}%`}
+                  strokeWidth={9}
                   styles={buildStyles({
                     pathTransition:
                       percentage === 0
@@ -64,7 +73,7 @@ const ProfessionalSkills = () => {
                         : "stroke-dashoffset 2s ease 0s",
                     textColor: "#000",
                     trailColor: "#ccc",
-                    pathColor: "#49c7d8",
+                    pathColor: professionalSkill.color,
                   })}
                 />
               )}
