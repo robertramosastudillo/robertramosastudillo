@@ -17,15 +17,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Robert Ramos`,
         short_name: `Portafolio de Robert`,
+        description: `Portafolio de Robert Andres Ramos Astudillo`,
+        lang: `en`,
         start_url: `/`,
-        background_color: `#151515`,
+        background_color: `#ffffff`,
         theme_color: `#151515`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },
     },

@@ -11,7 +11,6 @@ const ProfileContainer = styled.div`
   width: 80%;
   height: auto;
   margin: 40px auto;
-  /* border: 1px solid red; */
 
   @media ${device.laptopL} {
     height: 100%;
@@ -63,7 +62,6 @@ const Image = styled.img`
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: top;
 `
 
 const SocialMediaContainer = styled.div`
