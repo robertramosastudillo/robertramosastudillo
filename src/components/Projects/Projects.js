@@ -23,28 +23,29 @@ const Projects = () => {
       img: mernTask,
       title: "Administra tareas por proyecto",
       url: "https://gifted-blackwell-15a5d7.netlify.app/",
-      text: "Aplicación para Crear y asignar tareas a uno o mas proyecto",
+      text: "Crea y asigna tareas a uno ó mas proyectos",
       height: "160",
     },
     {
       img: buscaRecetas,
       title: "Recetas de Bebidas",
       url: "https://adoring-engelbart-f0ab8a.netlify.app/",
-      text: "Busca bebidas por Categoria o Ingrediente",
+      text: "Busca la receta de una bebida por Categoria o Ingrediente",
       height: "160",
     },
     {
       img: buscaCanciones,
       title: "Busca letras de canciones",
       url: "https://lucid-villani-fe2c73.netlify.app/",
-      text: "Busca la letra de tus canciones favoritas",
+      text:
+        "Busca la biografia de tu artista y la letra de tus canciones favoritas",
       height: "160",
     },
     {
       img: buscaImagenes,
       title: "Buscador de Imagenes",
       url: "https://vigorous-mccarthy-c5be8d.netlify.app/",
-      text: "Busca cualquier imagen y descargalas gratis",
+      text: "Busca cualquier imagen y descargala gratis",
       height: "160",
     },
     {
@@ -52,21 +53,21 @@ const Projects = () => {
       title: "Cotiza Cripto monedas al instante",
       url: "https://peaceful-hamilton-837fb5.netlify.app/",
       text:
-        "Cotiza Cripto monedas al instante selecionando tu moneda y tu cripto moneda para relizar la conversión",
+        "Cotiza Cripto monedas al instante selecionando tu moneda y tu cripto moneda para realizar la conversión",
       height: "160",
     },
     {
       img: climaApp,
       title: "App del Clima",
       url: "https://laughing-morse-87742b.netlify.app/",
-      text: "Mira el clima de tu ciudad",
+      text: "Mira el estado actualmente del clima de tu ciudad",
       height: "160",
     },
     {
       img: frasesBreakingBad,
       title: "Frases de Breaking Bad",
       url: "https://hopeful-lamarr-eba663.netlify.app/",
-      text: "Obtiene una frase aleatoria de cualquier personaje de breking bad",
+      text: "Obten una frase aleatoria de cualquier personaje de breaking bad",
       height: "160",
     },
   ]

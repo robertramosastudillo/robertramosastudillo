@@ -75,11 +75,12 @@ const Details = styled.div`
 `
 
 const Title = styled.a`
+  display: inline-block;
   text-decoration: none;
   color: #fffcff;
   font-weight: 600;
   font-size: 18px;
-  margin: 10px 0 15px 0;
+  margin: 0px 0 15px 0;
   cursor: pointer;
 
   &:hover {
@@ -93,6 +94,7 @@ const Text = styled.p`
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  /* margin-top: 10px; */
 `
 
 export {

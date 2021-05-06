@@ -25,7 +25,7 @@ const TechnicalSkills = () => {
     },
     {
       title: "React JS",
-      percent: "75%",
+      percent: "85%",
     },
     {
       title: "Node JS",

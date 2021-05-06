@@ -1,10 +1,14 @@
-import * as React from "react"
+import React from "react"
+import NotFound from "../components/NotFound"
+import BasicLayout from "../layouts/BasicLayout"
+import { Container } from "../themes/global-style"
 
 const NotFoundPage = () => (
-  <>
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </>
+  <BasicLayout>
+    <Container>
+      <NotFound />
+    </Container>
+  </BasicLayout>
 )
 
 export default NotFoundPage
