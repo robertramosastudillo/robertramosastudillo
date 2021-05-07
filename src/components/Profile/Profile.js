@@ -64,10 +64,10 @@ const Profile = () => {
 
       <TextContainer>
         <Parrafo>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam maxime
-          neque sunt dolorem, aliquam voluptatem ipsa consequuntur natus
-          laboriosam quas quia enim nihil. Quasi assumenda voluptate voluptatem
-          veritatis harum ducimus!
+          Me caracterizo por ser un joven de grandes principios morales y con
+          una excelente actitud para enfrentar cualquier situación laboral.
+          Poseo grandes hábilidades para la adquisición de conocimiento y fácil
+          aprendizaje.
         </Parrafo>
       </TextContainer>
 
