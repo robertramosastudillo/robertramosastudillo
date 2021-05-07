@@ -18,7 +18,7 @@ import {
   ButtonLink,
 } from "./ProfileStyle"
 import avatar from "../../images/avatar.jpg"
-import CV from "../../images/cv.pdf"
+import CV from "../../images/Robert Ramos CV.pdf"
 const socialMedia = [
   {
     icon: <IcInstagram />,
