@@ -92,9 +92,7 @@ const Title = styled.a`
 const Text = styled.p`
   color: #fffcff;
   font-size: 14px;
-  line-height: 24px;
   font-weight: 400;
-  /* margin-top: 10px; */
 `
 
 export {

@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: `/robertramosastudillo.github.io`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Robert Andres Ramos Astudillo`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Portafolio de Robert Andres Ramos Astudillo`,
     author: `@robertramosastudillo`,
   },
   plugins: [
