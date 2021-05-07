@@ -2,8 +2,9 @@ module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
     title: `Robert Andres Ramos Astudillo`,
-    description: `Portafolio de Robert Andres Ramos Astudillo`,
-    author: `@robertramosastudillo`,
+    description: `Desarrollador Full Stack MERN`,
+    author: `robertramosastudillo`,
+    keywords: `HTML, CSS Javascript, React, Node, MongoDB, PostgreSQL`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
