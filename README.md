@@ -4,7 +4,7 @@
  
 I want to show you some info about me:
 
-- 📘 I'm currently learning NextJS
+- 📘 I'm currently learning Micro-frontend architecture
 - ✌️ I'm looking to collaborate whith developers and designers
 - 💬 Ask me about any crazy idea
 - 📭 How to find me:
