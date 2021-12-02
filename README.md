@@ -10,6 +10,6 @@ I want to show you some info about me:
 - 📭 How to find me:
   - [LinkedIn](https://www.linkedin.com/in/robert-andres-ramos-astudillo-161b8316b)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=robertramosastudillo&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=robertramosastudillo&show_icons=true)
 
 
